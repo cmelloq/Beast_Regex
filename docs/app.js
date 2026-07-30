@@ -89,12 +89,14 @@ function packIntoChunks(entries, limit) {
 }
 
 function buildBucket(beasts) {
-  // Ordena pra bestas mais caras primeiro dentro do balde (facilita achar
-  // as mais importantes na Parte 1 quando for vender, por exemplo)
   const sorted = [...beasts].sort((a, b) => b.chaosValue - a.chaosValue);
   const entries = sorted.map((b) => ({
     ...b,
-    sub: findUniqueSubstring(b.name, state.allNames, state.minSubLen),
+    // Se o poe.re já trouxe um regex calculado pra essa besta, usa ele
+    // direto (já testado e funcionando). Só calcula na unha se faltar.
+    sub: b.regex && b.regex.trim()
+      ? b.regex.trim()
+      : findUniqueSubstring(b.name, state.allNames, state.minSubLen),
   }));
   const chunks = packIntoChunks(entries, state.charLimit);
   return { entries, chunks };

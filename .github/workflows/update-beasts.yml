@@ -29,10 +29,13 @@ jobs:
         with:
           node-version: 20
 
-      - name: Fetch beast prices from poe.ninja
-        # Troque LEAGUE pelo nome exato da liga atual (ex: "Standard",
-        # "Hardcore", ou o nome da liga temporária em vigor)
-        run: node scripts/fetch-beasts.mjs "${{ vars.LEAGUE || 'Standard' }}"
+      - name: Install Playwright + Chromium
+        run: |
+          npm install playwright
+          npx playwright install --with-deps chromium
+
+      - name: Scrape beast prices + regex from poe.re
+        run: node scripts/scrape-poere.mjs
 
       - name: Check for changes
         id: diff
