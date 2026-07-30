@@ -1,0 +1,23 @@
+{
+  "league": "exemplo — rode o workflow para dados reais",
+  "fetchedAt": "2026-07-29T00:00:00.000Z",
+  "count": 16,
+  "beasts": [
+    { "name": "Black Mórrigan", "chaosValue": 138.4, "listingCount": 4 },
+    { "name": "Wild Bristle Matron", "chaosValue": 135.0, "listingCount": 3 },
+    { "name": "Aboriginal Chieftain", "chaosValue": 118.2, "listingCount": 2 },
+    { "name": "Wild Hellion Alpha", "chaosValue": 70.0, "listingCount": 5 },
+    { "name": "Wild Chimeral", "chaosValue": 60.6, "listingCount": 6 },
+    { "name": "Fenumal Plagued Arachnid", "chaosValue": 50.0, "listingCount": 8 },
+    { "name": "Primal Beast", "chaosValue": 32.9, "listingCount": 3 },
+    { "name": "Craicic Croaker", "chaosValue": 29.0, "listingCount": 9 },
+    { "name": "Farrul, First of the Plains", "chaosValue": 23.0, "listingCount": 10 },
+    { "name": "Craiceann, First of the Deep", "chaosValue": 20.0, "listingCount": 7 },
+    { "name": "Fenumus, First of the Night", "chaosValue": 20.0, "listingCount": 6 },
+    { "name": "Vivid Vulture", "chaosValue": 20.0, "listingCount": 2 },
+    { "name": "Primal Cystcaller", "chaosValue": 15.0, "listingCount": 4 },
+    { "name": "Wild Brambleback", "chaosValue": 13.8, "listingCount": 5 },
+    { "name": "Vivid Watcher", "chaosValue": 12.0, "listingCount": 3 },
+    { "name": "Primal Crushclaw", "chaosValue": 11.0, "listingCount": 4 }
+  ]
+}

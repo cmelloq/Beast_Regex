@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ledger de Bestas — regex do Menagerie</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <p class="eyebrow">Bestiary · Menagerie</p>
+      <h1>Ledger de <span class="claw">Bestas</span></h1>
+      <p class="lede">
+        Puxa os preços das bestas direto da poe.ninja e monta duas listas de
+        regex pra caixa "Filter Beasts" do seu Menagerie: uma pra achar o que
+        vender, outra pra achar o que descartar — cada uma já paginada em
+        blocos de até 100 caracteres, então nada fica de fora por estourar o
+        limite.
+      </p>
+      <p id="meta"></p>
+    </header>
+
+    <p id="status">Carregando dados…</p>
+
+    <section class="panel">
+      <h2>Configurações</h2>
+      <div class="controls">
+        <div class="field">
+          <label for="sellThreshold">Vender: valor mínimo (chaos)</label>
+          <input type="number" id="sellThreshold" value="10" min="0" step="1" />
+        </div>
+        <div class="field">
+          <label for="removeThreshold">Remover: valor máximo (chaos)</label>
+          <input type="number" id="removeThreshold" value="1" min="0" step="1" />
+        </div>
+        <div class="field">
+          <label for="charLimit">Limite por parte</label>
+          <input type="number" id="charLimit" value="100" min="10" step="1" />
+        </div>
+        <div class="field">
+          <label for="minSubLen">Tamanho mínimo do trecho</label>
+          <input type="number" id="minSubLen" value="4" min="2" max="12" step="1" />
+        </div>
+      </div>
+    </section>
+
+    <section class="panel bucket bucket-sell">
+      <h2>Vender <span class="count" id="sellCount"></span></h2>
+      <div id="sellChunks"></div>
+      <details>
+        <summary>Ver lista de bestas nesse balde</summary>
+        <table>
+          <thead><tr><th>Nome</th><th>Chaos</th><th>Trecho</th></tr></thead>
+          <tbody id="sellTbody"></tbody>
+        </table>
+      </details>
+    </section>
+
+    <section class="panel bucket bucket-remove">
+      <h2>Remover <span class="count" id="removeCount"></span></h2>
+      <div id="removeChunks"></div>
+      <details>
+        <summary>Ver lista de bestas nesse balde</summary>
+        <table>
+          <thead><tr><th>Nome</th><th>Chaos</th><th>Trecho</th></tr></thead>
+          <tbody id="removeTbody"></tbody>
+        </table>
+      </details>
+    </section>
+
+    <footer>
+      <p>
+        Fluxo sugerido: cola a Parte 1 de "Vender" no Filter Beasts → seleciona
+        e vende o que apareceu → cola a Parte 2 → repete até acabar as partes.
+        Quando o Menagerie estiver cheio, faça o mesmo com as partes de
+        "Remover", mas deletando em vez de vendendo.
+      </p>
+      <p>
+        A verificação de unicidade do regex usa <code>data/beast-names.json</code>
+        — uma lista-semente, não a base oficial completa do jogo. Sempre
+        confira o resultado dentro do jogo antes de confiar cegamente; se um
+        trecho pegar besta errada, edite <code>beast-names.json</code> e mande
+        um PR.
+      </p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
