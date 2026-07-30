@@ -57,28 +57,29 @@ async function main() {
       title: document.title,
       bodyLength: document.body.innerText.length,
       bodyPreview: document.body.innerText.slice(0, 1500),
-      tableCount: document.querySelectorAll("table").length,
+      beastRowCount: document.querySelectorAll(".beast-row").length,
       hasBeastNameText: document.body.innerText.includes("Beast name"),
     };
   });
   console.log("Diagnostico da pagina:", JSON.stringify(diagnostics, null, 2));
 
   const rows = await page.evaluate(() => {
-    const tables = [...document.querySelectorAll("table")];
-    const table = tables.find(
-      (t) => t.innerText.includes("Beast name") && t.innerText.includes("Regex")
-    );
-    if (!table) return [];
-
     const out = [];
-    for (const tr of table.querySelectorAll("tr")) {
-      const tds = [...tr.querySelectorAll("td")];
-      if (tds.length < 3) continue;
-      const name = tds[0]?.innerText.trim();
-      const regex = tds[1]?.innerText.trim();
-      const chaosText = tds[2]?.innerText.trim().replace(/,/g, "");
+    for (const row of document.querySelectorAll(".beast-row")) {
+      const nameEl = row.querySelector(".beast-name-cell");
+      const regexEl = row.querySelector(".beast-regex-cell");
+      const valueEl = row.querySelector(".beast-value-cell");
+      if (!nameEl || !regexEl || !valueEl) continue;
+
+      const name = nameEl.innerText.trim();
+      const regex = regexEl.innerText.trim();
+      const chaosText = valueEl.innerText.trim().replace(/,/g, "");
       const chaosValue = parseFloat(chaosText);
-      if (!name || !regex || Number.isNaN(chaosValue)) continue;
+
+      // pula a linha de cabeçalho ("Beast name" / "Regex" / "Chaos")
+      if (name === "Beast name" || !name || !regex) continue;
+      if (Number.isNaN(chaosValue)) continue;
+
       out.push({ name, regex, chaosValue });
     }
     return out;
