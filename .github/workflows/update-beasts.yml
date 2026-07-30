@@ -37,6 +37,14 @@ jobs:
       - name: Scrape beast prices + regex from poe.re
         run: node scripts/scrape-poere.mjs
 
+      - name: Upload debug HTML on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-poere-html
+          path: debug-poere.html
+          if-no-files-found: ignore
+
       - name: Check for changes
         id: diff
         run: |
