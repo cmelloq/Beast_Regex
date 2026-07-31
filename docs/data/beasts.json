@@ -1,42 +1,42 @@
 {
   "source": "poe.re (scraped)",
-  "fetchedAt": "2026-07-30T21:32:33.584Z",
+  "fetchedAt": "2026-07-31T01:20:30.660Z",
   "count": 50,
   "beasts": [
     {
       "name": "Wild Bristle Matron",
       "regex": "le m",
-      "chaosValue": 200
-    },
-    {
-      "name": "Farrul, First of the Plains",
-      "regex": "ul, f",
-      "chaosValue": 175.3
+      "chaosValue": 280
     },
     {
       "name": "Black Mórrigan",
       "regex": "k m",
-      "chaosValue": 125
+      "chaosValue": 150
     },
     {
       "name": "Wild Hellion Alpha",
       "regex": "ld h",
-      "chaosValue": 109
+      "chaosValue": 90
     },
     {
       "name": "Fenumal Plagued Arachnid",
       "regex": "l pl",
-      "chaosValue": 75
+      "chaosValue": 74
     },
     {
       "name": "Craicic Croaker",
       "regex": "c cr",
-      "chaosValue": 38
+      "chaosValue": 50
     },
     {
       "name": "Wild Brambleback",
       "regex": "d bra",
-      "chaosValue": 25
+      "chaosValue": 36
+    },
+    {
+      "name": "Farrul, First of the Plains",
+      "regex": "ul, f",
+      "chaosValue": 33
     },
     {
       "name": "Fenumus, First of the Night",
@@ -51,17 +51,17 @@
     {
       "name": "Primal Cystcaller",
       "regex": "l cy",
-      "chaosValue": 17
+      "chaosValue": 16
     },
     {
       "name": "Vivid Vulture",
       "regex": "id v",
-      "chaosValue": 16
+      "chaosValue": 15
     },
     {
       "name": "Vivid Watcher",
       "regex": "id w",
-      "chaosValue": 10
+      "chaosValue": 8
     },
     {
       "name": "Saqawal, First of the Sky",
@@ -79,13 +79,13 @@
       "chaosValue": 2
     },
     {
-      "name": "Farric Wolf Alpha",
-      "regex": "c wo",
+      "name": "Craicic Vassal",
+      "regex": "c v",
       "chaosValue": 2
     },
     {
-      "name": "Fenumal Hybrid Arachnid",
-      "regex": "l hy",
+      "name": "Farric Wolf Alpha",
+      "regex": "c wo",
       "chaosValue": 2
     },
     {
@@ -111,11 +111,6 @@
     {
       "name": "Craicic Squid",
       "regex": "c sq",
-      "chaosValue": 1
-    },
-    {
-      "name": "Craicic Vassal",
-      "regex": "c v",
       "chaosValue": 1
     },
     {
@@ -186,6 +181,11 @@
     {
       "name": "Fenumal Devourer",
       "regex": "l de",
+      "chaosValue": 1
+    },
+    {
+      "name": "Fenumal Hybrid Arachnid",
+      "regex": "l hy",
       "chaosValue": 1
     },
     {
