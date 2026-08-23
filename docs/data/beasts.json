@@ -1,52 +1,57 @@
 {
   "source": "poe.re (scraped)",
-  "fetchedAt": "2026-08-23T00:27:59.414Z",
+  "fetchedAt": "2026-08-23T04:24:53.155Z",
   "count": 51,
   "beasts": [
     {
       "name": "Black Mórrigan",
       "regex": "ck m",
-      "chaosValue": 413.6
+      "chaosValue": 303.5
     },
     {
       "name": "Fenumal Plagued Arachnid",
       "regex": "l plagued",
-      "chaosValue": 206.8
+      "chaosValue": 214.1
     },
     {
       "name": "Craicic Croaker",
       "regex": "cic cro",
-      "chaosValue": 150
+      "chaosValue": 136.2
     },
     {
       "name": "Wild Bristle Matron",
       "regex": "le ma",
-      "chaosValue": 148
+      "chaosValue": 135
     },
     {
       "name": "Wild Brambleback",
       "regex": "ld bra",
-      "chaosValue": 50
+      "chaosValue": 45
     },
     {
       "name": "Wild Hellion Alpha",
       "regex": "d hellion a",
-      "chaosValue": 45
-    },
-    {
-      "name": "Farrul, First of the Plains",
-      "regex": "ul, f",
-      "chaosValue": 35
+      "chaosValue": 42
     },
     {
       "name": "Fenumus, First of the Night",
       "regex": "s, f",
-      "chaosValue": 33.4
+      "chaosValue": 34
+    },
+    {
+      "name": "Farrul, First of the Plains",
+      "regex": "ul, f",
+      "chaosValue": 30
+    },
+    {
+      "name": "Vivid Vulture",
+      "regex": "vid v",
+      "chaosValue": 29
     },
     {
       "name": "Primal Cystcaller",
       "regex": "l cy",
-      "chaosValue": 29
+      "chaosValue": 27.5
     },
     {
       "name": "Primal Crushclaw",
@@ -59,23 +64,18 @@
       "chaosValue": 20
     },
     {
-      "name": "Vivid Vulture",
-      "regex": "vid v",
-      "chaosValue": 20
-    },
-    {
       "name": "Craiceann, First of the Deep",
       "regex": "n, f",
       "chaosValue": 15
     },
     {
-      "name": "Farric Tiger Alpha",
-      "regex": "ger a",
-      "chaosValue": 6
-    },
-    {
       "name": "Craicic Maw",
       "regex": "cic m",
+      "chaosValue": 10
+    },
+    {
+      "name": "Farric Tiger Alpha",
+      "regex": "ger a",
       "chaosValue": 5
     },
     {
@@ -86,7 +86,7 @@
     {
       "name": "Craicic Squid",
       "regex": "c sq",
-      "chaosValue": 2
+      "chaosValue": 3
     },
     {
       "name": "Craicic Vassal",
@@ -131,6 +131,11 @@
     {
       "name": "Farric Ape",
       "regex": "c a",
+      "chaosValue": 1
+    },
+    {
+      "name": "Farric Chieftain",
+      "regex": "rric c",
       "chaosValue": 1
     },
     {
@@ -252,11 +257,6 @@
       "name": "Vivid Abberarach",
       "regex": "id ab",
       "chaosValue": 1
-    },
-    {
-      "name": "Farric Chieftain",
-      "regex": "rric c",
-      "chaosValue": 0.73
     }
   ]
 }
