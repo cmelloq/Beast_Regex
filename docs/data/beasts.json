@@ -1,27 +1,27 @@
 {
   "source": "poe.re (scraped)",
-  "fetchedAt": "2026-08-30T15:30:40.801Z",
+  "fetchedAt": "2026-08-30T18:51:15.906Z",
   "count": 51,
   "beasts": [
     {
       "name": "Black Mórrigan",
       "regex": "ck m",
-      "chaosValue": 525.8
+      "chaosValue": 497
     },
     {
       "name": "Craicic Croaker",
       "regex": "cic cro",
-      "chaosValue": 327
+      "chaosValue": 275.3
     },
     {
       "name": "Fenumal Plagued Arachnid",
       "regex": "l plagued",
-      "chaosValue": 289.6
+      "chaosValue": 267.9
     },
     {
       "name": "Wild Bristle Matron",
       "regex": "le ma",
-      "chaosValue": 105
+      "chaosValue": 94.3
     },
     {
       "name": "Farrul, First of the Plains",
@@ -39,34 +39,34 @@
       "chaosValue": 30
     },
     {
-      "name": "Wild Hellion Alpha",
-      "regex": "d hellion a",
-      "chaosValue": 30
-    },
-    {
       "name": "Wild Brambleback",
       "regex": "ld bra",
+      "chaosValue": 28
+    },
+    {
+      "name": "Saqawal, First of the Sky",
+      "regex": "al, f",
       "chaosValue": 25
     },
     {
       "name": "Craiceann, First of the Deep",
       "regex": "n, f",
+      "chaosValue": 24.3
+    },
+    {
+      "name": "Primal Cystcaller",
+      "regex": "l cy",
       "chaosValue": 24
     },
     {
       "name": "Primal Crushclaw",
       "regex": "l cru",
-      "chaosValue": 23.8
+      "chaosValue": 20
     },
     {
-      "name": "Primal Cystcaller",
-      "regex": "l cy",
-      "chaosValue": 22.8
-    },
-    {
-      "name": "Saqawal, First of the Sky",
-      "regex": "al, f",
-      "chaosValue": 21.8
+      "name": "Wild Hellion Alpha",
+      "regex": "d hellion a",
+      "chaosValue": 19.2
     },
     {
       "name": "Farric Tiger Alpha",
@@ -74,14 +74,14 @@
       "chaosValue": 6
     },
     {
-      "name": "Vivid Watcher",
-      "regex": "id wa",
+      "name": "Craicic Maw",
+      "regex": "cic m",
       "chaosValue": 4
     },
     {
-      "name": "Craicic Maw",
-      "regex": "cic m",
-      "chaosValue": 3
+      "name": "Vivid Watcher",
+      "regex": "id wa",
+      "chaosValue": 4
     },
     {
       "name": "Craicic Vassal",
@@ -91,7 +91,7 @@
     {
       "name": "Craicic Squid",
       "regex": "c sq",
-      "chaosValue": 2
+      "chaosValue": 2.4
     },
     {
       "name": "Farric Lynx Alpha",
@@ -102,6 +102,11 @@
       "name": "Farric Wolf Alpha",
       "regex": "c wolf a",
       "chaosValue": 2
+    },
+    {
+      "name": "Craicic Sand Spitter",
+      "regex": "c sand s",
+      "chaosValue": 1
     },
     {
       "name": "Craicic Spider Crab",
@@ -124,6 +129,11 @@
       "chaosValue": 1
     },
     {
+      "name": "Fenumal Devourer",
+      "regex": "al de",
+      "chaosValue": 1
+    },
+    {
       "name": "Fenumal Hybrid Arachnid",
       "regex": "l hy",
       "chaosValue": 1
@@ -131,11 +141,6 @@
     {
       "name": "Fenumal Queen",
       "regex": "l q",
-      "chaosValue": 1
-    },
-    {
-      "name": "Fenumal Scrabbler",
-      "regex": "umal scr",
       "chaosValue": 1
     },
     {
@@ -164,83 +169,83 @@
       "chaosValue": 1
     },
     {
-      "name": "Fenumal Devourer",
-      "regex": "al de",
-      "chaosValue": 0.97
-    },
-    {
-      "name": "Fenumal Scorpion",
-      "regex": "l sco",
-      "chaosValue": 0.86
+      "name": "Fenumal Scrabbler",
+      "regex": "umal scr",
+      "chaosValue": 0.92
     },
     {
       "name": "Saqawine Chimeral",
       "regex": "ne ch",
-      "chaosValue": 0.83
-    },
-    {
-      "name": "Craicic Sand Spitter",
-      "regex": "c sand s",
-      "chaosValue": 0.77
+      "chaosValue": 0.87
     },
     {
       "name": "Craicic Savage Crab",
       "regex": "c sav",
-      "chaosValue": 0.72
+      "chaosValue": 0.85
     },
     {
       "name": "Saqawine Cobra",
       "regex": "ne cob",
-      "chaosValue": 0.72
+      "chaosValue": 0.79
     },
     {
-      "name": "Fenumal Widow",
-      "regex": "l wid",
-      "chaosValue": 0.69
-    },
-    {
-      "name": "Saqawine Rhoa",
-      "regex": "ine rho",
-      "chaosValue": 0.67
-    },
-    {
-      "name": "Farric Goliath",
-      "regex": "c gol",
-      "chaosValue": 0.62
+      "name": "Fenumal Scorpion",
+      "regex": "l sco",
+      "chaosValue": 0.78
     },
     {
       "name": "Farric Pit Hound",
       "regex": "c pi",
-      "chaosValue": 0.57
+      "chaosValue": 0.73
     },
     {
-      "name": "Saqawine Retch",
-      "regex": "ne re",
-      "chaosValue": 0.56
-    },
-    {
-      "name": "Farric Flame Hellion Alpha",
-      "regex": "me hellion a",
-      "chaosValue": 0.4
-    },
-    {
-      "name": "Farric Taurus",
-      "regex": "c ta",
-      "chaosValue": 0.4
+      "name": "Saqawine Rhoa",
+      "regex": "ine rho",
+      "chaosValue": 0.69
     },
     {
       "name": "Craicic Shield Crab",
       "regex": "c shi",
-      "chaosValue": 0.39
+      "chaosValue": 0.66
     },
     {
-      "name": "Farric Gargantuan",
-      "regex": "c ga",
-      "chaosValue": 0.39
+      "name": "Saqawine Retch",
+      "regex": "ne re",
+      "chaosValue": 0.62
+    },
+    {
+      "name": "Fenumal Widow",
+      "regex": "l wid",
+      "chaosValue": 0.45
+    },
+    {
+      "name": "Farric Flame Hellion Alpha",
+      "regex": "me hellion a",
+      "chaosValue": 0.42
+    },
+    {
+      "name": "Farric Goliath",
+      "regex": "c gol",
+      "chaosValue": 0.42
     },
     {
       "name": "Farric Goatman",
       "regex": "c goa",
+      "chaosValue": 0.41
+    },
+    {
+      "name": "Farric Taurus",
+      "regex": "c ta",
+      "chaosValue": 0.41
+    },
+    {
+      "name": "Farric Gargantuan",
+      "regex": "c ga",
+      "chaosValue": 0.4
+    },
+    {
+      "name": "Farric Chieftain",
+      "regex": "rric c",
       "chaosValue": 0.39
     },
     {
@@ -251,12 +256,7 @@
     {
       "name": "Farric Ursa",
       "regex": "c u",
-      "chaosValue": 0.21
-    },
-    {
-      "name": "Farric Chieftain",
-      "regex": "rric c",
-      "chaosValue": 0.14
+      "chaosValue": 0.39
     }
   ]
 }
