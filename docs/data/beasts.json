@@ -1,37 +1,37 @@
 {
   "source": "poe.re (scraped)",
-  "fetchedAt": "2026-09-05T11:24:44.853Z",
+  "fetchedAt": "2026-09-05T14:02:15.833Z",
   "count": 51,
   "beasts": [
     {
       "name": "Black Mórrigan",
       "regex": "ck m",
-      "chaosValue": 856.8
+      "chaosValue": 846.4
     },
     {
       "name": "Fenumal Plagued Arachnid",
       "regex": "l plagued",
-      "chaosValue": 856.8
+      "chaosValue": 846.4
     },
     {
       "name": "Craicic Croaker",
       "regex": "cic cro",
-      "chaosValue": 648
+      "chaosValue": 600
     },
     {
       "name": "Wild Bristle Matron",
       "regex": "le ma",
-      "chaosValue": 337.1
-    },
-    {
-      "name": "Fenumus, First of the Night",
-      "regex": "s, f",
-      "chaosValue": 74.5
+      "chaosValue": 400
     },
     {
       "name": "Wild Hellion Alpha",
       "regex": "d hellion a",
-      "chaosValue": 68
+      "chaosValue": 88.6
+    },
+    {
+      "name": "Fenumus, First of the Night",
+      "regex": "s, f",
+      "chaosValue": 74.4
     },
     {
       "name": "Farrul, First of the Plains",
@@ -51,7 +51,7 @@
     {
       "name": "Saqawal, First of the Sky",
       "regex": "al, f",
-      "chaosValue": 37
+      "chaosValue": 37.7
     },
     {
       "name": "Craiceann, First of the Deep",
@@ -61,12 +61,12 @@
     {
       "name": "Farric Tiger Alpha",
       "regex": "ger a",
-      "chaosValue": 27.4
+      "chaosValue": 32
     },
     {
       "name": "Primal Cystcaller",
       "regex": "l cy",
-      "chaosValue": 19
+      "chaosValue": 22
     },
     {
       "name": "Primal Crushclaw",
@@ -81,7 +81,7 @@
     {
       "name": "Farric Wolf Alpha",
       "regex": "c wolf a",
-      "chaosValue": 3
+      "chaosValue": 2.4
     },
     {
       "name": "Craicic Maw",
@@ -256,7 +256,7 @@
     {
       "name": "Farric Gargantuan",
       "regex": "c ga",
-      "chaosValue": 0.65
+      "chaosValue": 0.67
     }
   ]
 }
