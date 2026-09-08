@@ -1,6 +1,6 @@
 {
   "source": "poe.re (scraped)",
-  "fetchedAt": "2026-09-08T01:31:10.500Z",
+  "fetchedAt": "2026-09-08T08:22:17.370Z",
   "count": 51,
   "beasts": [
     {
@@ -11,32 +11,27 @@
     {
       "name": "Fenumal Plagued Arachnid",
       "regex": "l plagued",
-      "chaosValue": 723.2
+      "chaosValue": 736.8
     },
     {
       "name": "Craicic Croaker",
       "regex": "cic cro",
-      "chaosValue": 550.5
+      "chaosValue": 489.3
     },
     {
       "name": "Wild Bristle Matron",
       "regex": "le ma",
-      "chaosValue": 361.6
+      "chaosValue": 340
     },
     {
       "name": "Wild Brambleback",
       "regex": "ld bra",
-      "chaosValue": 100
+      "chaosValue": 99
     },
     {
       "name": "Wild Hellion Alpha",
       "regex": "d hellion a",
       "chaosValue": 65
-    },
-    {
-      "name": "Craiceann, First of the Deep",
-      "regex": "n, f",
-      "chaosValue": 51.4
     },
     {
       "name": "Farrul, First of the Plains",
@@ -49,9 +44,9 @@
       "chaosValue": 45
     },
     {
-      "name": "Saqawal, First of the Sky",
-      "regex": "al, f",
-      "chaosValue": 35.3
+      "name": "Craiceann, First of the Deep",
+      "regex": "n, f",
+      "chaosValue": 30.5
     },
     {
       "name": "Fenumus, First of the Night",
@@ -61,17 +56,22 @@
     {
       "name": "Primal Cystcaller",
       "regex": "l cy",
-      "chaosValue": 28.7
+      "chaosValue": 30
+    },
+    {
+      "name": "Saqawal, First of the Sky",
+      "regex": "al, f",
+      "chaosValue": 30
     },
     {
       "name": "Farric Tiger Alpha",
       "regex": "ger a",
-      "chaosValue": 15
+      "chaosValue": 13.2
     },
     {
       "name": "Primal Crushclaw",
       "regex": "l cru",
-      "chaosValue": 12
+      "chaosValue": 13
     },
     {
       "name": "Vivid Watcher",
@@ -99,14 +99,9 @@
       "chaosValue": 2
     },
     {
-      "name": "Fenumal Hybrid Arachnid",
-      "regex": "l hy",
-      "chaosValue": 2
-    },
-    {
       "name": "Farric Lynx Alpha",
       "regex": "nx a",
-      "chaosValue": 1.5
+      "chaosValue": 2
     },
     {
       "name": "Craicic Sand Spitter",
@@ -191,6 +186,11 @@
     {
       "name": "Fenumal Devourer",
       "regex": "al de",
+      "chaosValue": 1
+    },
+    {
+      "name": "Fenumal Hybrid Arachnid",
+      "regex": "l hy",
       "chaosValue": 1
     },
     {
